@@ -1,8 +1,5 @@
 package exam;
 
-import exam.annotations.Controller;
-import exam.annotations.RequestMapping;
-
 import java.io.File;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
@@ -44,7 +41,7 @@ public class Bootstrap {
         System.out.println("=====================================================================");
         System.out.println("Answer1:");
         // ここに回答のコードを書く
-        
+
 
         // 問題２ アノテーションによるクラス探索
         // annotationsパッケージに、@Controllerアノテーションを定義して、
